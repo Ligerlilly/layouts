@@ -1,0 +1,148 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+header, nav, section, aside, h1 {
+  padding: 0 0 0 .5em;
+  margin: 0;
+}
+header {
+  background-color: #CCFFFC;
+  padding: .8em;
+  
+}
+
+nav {
+  background-color: #3C50E8;
+  height: 1.5em;
+}
+
+section {
+  background-color: #E64EFF; 
+  width: 70%;
+  height: 100%;
+  float: left;
+  margin-right:-100px;
+}
+
+section a {
+  text-decoration: none;
+}
+
+aside {
+  background-color: #E8573C;
+  float: right;
+  width: 30%;
+}
+
+h1 {
+  color: #FFBD42;
+}
+
+h2 {
+  margin: 0 0 1em 0;
+  padding-top: .4em;
+  color: #ACFF4E;
+}
+
+ul {
+  margin: 0;
+}
+
+nav ul {
+  padding-top: .5em;
+}
+
+nav ul li {
+  display: inline;
+  padding-right: .5em;
+}
+
+nav ul li a {
+  color: #ACFF4E;
+  text-decoration: none;
+}
+
+p {
+  padding-right: .7em;
+}
+
+
+.block {
+  display: block;
+  margin-top: 1em;
+  
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto 0 auto;
+  
+
+
+}
+
+.c2-text {
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+.c2-list {
+  margin-top: 1em;
+}
+
+
+
+@media (max-width: 740px) {
+  .container {
+    width: 100%;
+    height: auto;
+  }
+
+
+  nav {
+    padding-bottom: .2em;
+  }
+
+  nav ul li {
+    font-size: .7em;
+    font-weight: bold;
+  }
+
+  section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    float: none;
+  }
+
+  aside {
+    float: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: auto;
+    padding-bottom: .7em;
+
+  }
+
+  h2 {
+    padding-left: 1em;
+  }
+
+  section a {
+    padding-left: 1em;
+  }
+
+  p {
+    padding-left: 1em;
+  }
+
+  
+}
+

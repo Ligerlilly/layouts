@@ -1,0 +1,82 @@
+
+
+/* My styles*/
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+header, nav, section, aside, h1 {
+  padding: 0 0 0 .5em;
+  margin: 0;
+}
+header {
+  background-color: #CCFFFC;
+  
+}
+
+nav {
+  background-color: #3C50E8;
+  height: 1.5em;
+}
+
+section {
+  background-color: #E64EFF; 
+  width: 69%;
+  height: 100%;
+}
+
+aside {
+  background-color: #E8573C;
+  float: right;
+  width: 30%;
+  height: 100%;
+}
+
+h1 {
+  color: #FFBD42;
+}
+
+h2 {
+  margin: 0 0 1em 0;
+  padding-top: .4em;
+  color: #ACFF4E;
+}
+
+ul {
+  margin: 0;
+}
+
+nav ul {
+  padding-top: .5em;
+}
+
+nav ul li {
+  display: inline;
+  padding-right: .5em;
+}
+
+nav ul li a {
+  color: #ACFF4E;
+}
+
+.block {
+  display: block;
+  margin-top: 1em;
+}
+
+.container {
+  height: 100%;
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+.c2 {
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+.c2-list {
+  margin-top: 1em;
+}
