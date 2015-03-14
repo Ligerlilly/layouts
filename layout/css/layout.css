@@ -93,6 +93,12 @@ p {
   margin-top: 1em;
 }
 
+@media (min-height: 700px) {
+  .container {
+    height: 100%
+  }
+}
+
 
 
 @media (max-width: 740px) {
