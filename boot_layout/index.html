@@ -105,9 +105,16 @@
     <script src="js/bootstrap.min.js"></script>
     <script>
       $( document ).ready(function(){
-        var height = $( '.c1' ).height();
-        if ( $('.container').width() > 768 ){
-          $( '#c2' ).height( height );
+        //alert($( window ).height() - ( $( 'header' ).height() + $( 'nav' ).height() ));
+        var height = $( window ).height() - ( $( 'header' ).height() + $( 'nav' ).height() );
+        if ( $( '.container' ).width() > 768 ){
+          if ( $( 'section' ).height() > height ){
+            $( '#c2' ).height( $( 'section' ).height() );
+          }
+          else {
+            $( 'section' ).height( height );
+            $( '#c2' ).height( height );
+          }
         }
         
       });
